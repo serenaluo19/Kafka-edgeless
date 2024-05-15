@@ -7,7 +7,7 @@ pub async fn start() {
 }
 
 fn create()-> StreamConsumer {
-    ket mut config = ClientConfig::new()
+    let mut config = ClientConfig::new()
     .set("bootstrap.servers", "localhost:9092")
     .set("auto.offset.reset", "earliest")
     .set("group.id", "test-group")
