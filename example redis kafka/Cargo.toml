@@ -19,7 +19,7 @@ name = "counter"
 path = "src/lib.rs"
 crate-type = ["cdylib"]
 
-[bin]
+[[bin]]
 name = "main"
 path = "main.rs"
 
